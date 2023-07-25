@@ -46,10 +46,14 @@ button:hover{
 .firstdiv{
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    text-align: left;
     
 }
 
+
+.firsttext{
+    
+}
 .firsttext h2{
     font-size: 30px;
     font-weight: normal;

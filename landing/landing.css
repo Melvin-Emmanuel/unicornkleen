@@ -53,18 +53,57 @@ button:hover{
 }
 
 .paragraph1{
+    height: 700px;
+    width: auto;
     display: flex;
     justify-content: space-around;
 
 
 }
+.pppr h3{
+    font-size: 30px;
+
+}
+.pppr h1{
+    font-size: 80px;
+    font-weight: bold;
+}
+.pppr p{
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.metrics{
+    display: flex;
+    margin-right: 50px;
+}
+
+.met{
+    margin-right: 50px;
+}
+
+.met h3{
+    font-size: 15px;
+    font-weight: 400;
+}
+
 .floating1 img{
-    width: 150px;
-    border: 0, 50, 50, 50;
+    width: 500px;
+    height: 450px;
+    background-color: white;
+    border-top-left-radius: 450px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 450px;
+    border-bottom-left-radius: 450px;
 
 }
 .floating2 img{
-    width: 150px;
+    width: 350px;
+    height: auto;
+    text-align: center;
+    position: absolute;
+    top: 480px;
+    left: 950px;
 }
 
 .paragraph2{

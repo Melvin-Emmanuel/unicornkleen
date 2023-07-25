@@ -153,4 +153,41 @@ margin-top: 10px;
 }
 .iconHolder{
     display: flex;
+    gap: 20px;
+}
+.iconImage{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+
+}
+
+.iconImage img{
+    height: 100%;
+    width: 100%;
+}
+.social{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+}
+#name{
+    border: transparent;
+    outline: none;
+    background-color:transparent;
+    border-bottom: 1px solid #3a4952;
+    width: 90%;
+    
+}
+label{
+    font-size: 18px;
+    color:#3a4952;
+    font-weight: 500;
+    font-family: 'Prompt', sans-serif;
+}
+.form{
+    display: flex;
+    /* flex-direction: column; */
+    width: 100%;
 }

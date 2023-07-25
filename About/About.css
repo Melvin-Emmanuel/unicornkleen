@@ -61,8 +61,7 @@ button:hover{
 .hero-intro h1{
     margin: 0;
     padding: 0;
-    font-size: 50px;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 .hero-intro p{
@@ -76,10 +75,9 @@ button:hover{
     align-items: center;
     justify-content: space-between;
     background-color: white;
-    /* height: 50vh; */
     width: 100%;
     padding-top: 70px;
-    /* margin-right: 50px; */
+    
 }
 
 .card1{
@@ -109,17 +107,17 @@ button:hover{
     background-color: white;
     text-align: center;
     position: absolute;
-    border-bottom-left-radius:50px;
+    border-radius:0px 50px 0px 50px;
+    text-align: center;
     left: 30px;
-    top: 10px;
+    top: 4px;
     margin-left: 50px;
 }
 
 .card1-writeup h2{
     margin: 0;
     padding: 0;
-    font-size: 30px;
-    font-weight: 400;
+    font-weight: 700;
     color: #0ECAEE;   
 }
 
@@ -147,8 +145,7 @@ button:hover{
 .card2-writeup h2{
     margin: 0;
     padding: 0;
-    font-size: 30px;
-    font-weight: 400;
+    font-weight: 700;
     color: #0ECAEE;
 }
 
@@ -179,8 +176,7 @@ button:hover{
 .card3-writeup h2{
     margin: 0;
     padding: 0;
-    font-size: 30px;
-    font-weight: 400;
+    font-weight: 700;
 }
 
 .card3-writeup p{
@@ -206,19 +202,17 @@ button:hover{
     margin-right: 80px;
 }
 
-.hero-3 h4{
+.hero-3 h3{
     margin: 0;
     padding: 0;
-    font-size: 30px;
-    font-weight: 200;
+    font-weight: 700;
     color: #0ECAEE;
 }
 
 .hero-3 h2{
     margin: 0;
     padding: 0;
-    font-size: 30px;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 .hero3-2 p{
@@ -232,5 +226,47 @@ button:hover{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: #0ECAEE
+    background-color: #E9F8F9;
 }
+
+.container-1{
+    height: 100px;
+    width: 250px;
+    border-radius: 0px 50px 50px 50px;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+}
+
+.container-1 image{
+    height: 20px;
+    width: 20px;   
+}
+
+.container-1 img{
+    height: 40px;
+    width: 40px;
+    border-radius: 360%;
+    background-color:#00B2D4 ;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.write-up{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.write-up-1  h4{
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    color: #0ECAEE;
+}
+
+.write-up-1 h3{
+    
+}
+

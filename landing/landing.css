@@ -169,6 +169,27 @@ button:hover{
     width: 400px;
     height: auto;
     object-fit: contain;
+;
 }
+footer{
+    background-color: #413C85;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    padding-top: 50px;
+    padding-bottom: 30px; 
 
+    
+}
+footer h2{
+    color: #B1ACD8;
 
+}
+footer h4{
+    color: white;
+}
+footer p{
+    color: #B1ACD8;
+}
+.f2{
+    margin-right: 30px;}

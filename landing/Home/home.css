@@ -7,19 +7,6 @@ body{
 
 }
 
-h3{
-    font-size: 20px;
-    color: rgb(0, 53, 84);
-}
-h2{
-    font-size: 40px;
-    color: rgb(0, 53, 84);
-}
-p{
-    font-size: 15px;
-    color: rgb(0, 53, 84);
-}
-
 header{
     display: flex;
     justify-content: space-between;
@@ -48,34 +35,32 @@ button{
 
 }
 button:hover{
-    text-decoration: underline;
+    text-decoration: overline;
     cursor: pointer;
 }
 
-.paragraph1{
+.unicornK{
+    margin-right: 20px;
+}
+
+.firstdiv{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
     
-
-}
-.floating1 img{
-    width: 150px;
-    border: 0, 50, 50, 50;
-
-}
-.floating2 img{
-    width: 150px;
 }
 
-.paragraph2{
-
+.firsttext h2{
+    font-size: 30px;
+    font-weight: normal;
+}
+.firsttext h1 {
+    font-size: 66px;
+    font-weight: bolder;
 }
 
-.paragraph3{
 
+.imageBorder{
+    display: flex;
+    
 }
-
-.paragraph4{
-
-}
-

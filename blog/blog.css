@@ -11,7 +11,14 @@
 .cardHolder{
     box-shadow: 2px 2px 3px black;
     height: 500px;
-    width: 400px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content:stretch;
+}
+.cardHolder nav a{
+  text-decoration: none;
+  font-size: 24px;
 }
 .blogImageHolder{
     width: 100%;
@@ -23,7 +30,7 @@ height: 100%;
 width: 100%;
 object-fit: fill;
 }
-.cardHolder a{
+.cardHolder >a{
 height: 20px;
 width: 40px;
 text-decoration: none;
@@ -35,4 +42,18 @@ align-items: center;
 justify-content: center;
 font-size: 13px;
 
+}
+.readMore{
+  display: flex;
+  align-items: center;
+  width: 140px;
+  justify-content: space-between;
+
+}
+.cardContainer{
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 90%;
+  justify-content: space-between;
+  flex: 0 1 auto;
 }

@@ -31,6 +31,7 @@ align-items: center;
 font-size: 50px;
 font-weight: bold;
 color: #003554;
+padding: 20px;
 }
 
 .writup{
@@ -40,6 +41,8 @@ align-items: center;
 }
 
 .writup p{
-font-size: 20px;
+font-size: 15px;
 text-align: center;
+padding: 0;
+color: #003554;
 }

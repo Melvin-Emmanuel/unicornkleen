@@ -46,14 +46,10 @@ button:hover{
 .firstdiv{
     display: flex;
     justify-content: space-around;
-    text-align: left;
+    align-items: center;
     
 }
 
-
-.firsttext{
-    
-}
 .firsttext h2{
     font-size: 30px;
     font-weight: normal;
@@ -64,32 +60,7 @@ button:hover{
 }
 
 
-
-.p1{
-    height: 300px;
-    width: 100%;
-    background-color: white;
+.imageBorder{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.p1 > img{
-    width: 100%;
-}
-
-.page2{
-    height: 300px;
-    width: 100%;
-    background-color: white;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.page2img{
-    width: 450px;
-   
     
-}
-.page2img > img{
-    width: 100%;
 }

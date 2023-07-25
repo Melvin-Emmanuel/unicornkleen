@@ -1,0 +1,10 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.hero{
+    height: 70px;
+    width: 100%;
+    background-color:#E9F8F9 ;
+}

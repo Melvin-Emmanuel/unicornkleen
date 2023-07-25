@@ -128,3 +128,47 @@ button:hover{
     object-fit: contain;
 }
 
+.paragraph5{
+    text-align: center;
+}
+
+.para5{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.rice img{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    border-top-left-radius: 0px ;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+.paragraph7{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+
+
+}
+.lol  img{
+    width: 800px;
+    object-fit: contain;
+}
+
+.para77{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fix77 > img{
+    width: 400px;
+    height: auto;
+    object-fit: contain;
+}
+
+

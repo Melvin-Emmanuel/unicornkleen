@@ -35,7 +35,7 @@ button{
 
 }
 button:hover{
-    text-decoration: overline;
+    text-decoration: underline;
     cursor: pointer;
 }
 
@@ -50,46 +50,20 @@ button:hover{
     
 }
 
-
-.firsttext{
-    
-}
-.firsttext h2{
-    font-size: 30px;
-    font-weight: normal;
-}
-.firsttext h1 {
-    font-size: 66px;
-    font-weight: bolder;
-}
-
-
-
-.p1{
-    height: 300px;
-    width: 100%;
-    background-color: white;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.p1 > img{
-    width: 100%;
-}
-
 .page2{
-    height: 300px;
-    width: 100%;
-    background-color: white;
     display: flex;
     justify-content: space-around;
-    align-items: center;
-}
-.page2img{
-    width: 450px;
-   
     
 }
-.page2img > img{
-    width: 100%;
-}
+
+/* .caaard{
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    text-align: center;
+    position: absolute;
+    border-bottom-left-radius: 50px;
+    left: 100px;
+    top: 500px;
+    margin-right: 50px;
+} */

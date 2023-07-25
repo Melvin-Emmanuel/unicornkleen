@@ -2,8 +2,6 @@ body{
     margin: 0;
     padding: 0;
     font-family: "Montserrat" , sans-serif;
-    background-color: gold;
-
 }
 
 header{
@@ -228,6 +226,15 @@ button:hover{
     font-size: 20px;
     font-weight: 200;
 }
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #0ECAEE
+}
+
+.
 
 
 

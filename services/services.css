@@ -3,26 +3,7 @@ body {
   padding: 0;
 }
 
-header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
-  height: 60px;
-}
 
-.Navigation {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-direction: row;
-  color: #003554;
-}
-
-.nav:hover {
-  color: #00b2d4;
-  text-decoration: underline;
-}
 
 .servicepage {
   background-color: #ebf9fb;

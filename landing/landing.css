@@ -54,8 +54,8 @@ button:hover{
 
 .paragraph1{
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-around;
+
 
 }
 .floating1 img{
@@ -68,14 +68,128 @@ button:hover{
 }
 
 .paragraph2{
+    height: 500px;
+    
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
 
 }
 
+.imgg img{
+    width: 700px;
+    object-fit: contain;
+}
+.whitepaper{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    text-align: center;
+    position: absolute;
+    border-top-left-radius: 100px ;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    left: 0;
+    top: 750px;
+    margin-left: 500px;
+
+}
+.whitepaper h1{
+    font-size: 70px;
+    font-weight: bolder;
+    text-align: center;
+}
+
 .paragraph3{
+    height: 500px;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.ftft img{
+    width: 400px;
+    object-fit: contain;
 
 }
 
 .paragraph4{
 
+    height: 500px;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
+.p4 img{
+    width: 500px;
+    object-fit: contain;
+}
+
+.paragraph5{
+    text-align: center;
+}
+
+.para5{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.rice img{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    border-top-left-radius: 0px ;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+.paragraph7{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+
+
+}
+.lol  img{
+    width: 800px;
+    object-fit: contain;
+}
+
+.para77{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fix77 > img{
+    width: 400px;
+    height: auto;
+    object-fit: contain;
+;
+}
+footer{
+    background-color: #413C85;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    padding-top: 50px;
+    padding-bottom: 30px; 
+
+    
+}
+footer h2{
+    color: #B1ACD8;
+
+}
+footer h4{
+    color: white;
+}
+footer p{
+    color: #B1ACD8;
+}
+.f2{
+    margin-right: 30px;}

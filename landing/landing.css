@@ -1,0 +1,22 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: 0ECAEE;
+
+}
+
+header{
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.unicornK{
+    margin-right: 50px;
+}
+
+.firstdiv{
+    margin-left: 100px;
+}

@@ -51,20 +51,64 @@ button:hover{
     text-decoration: underline;
     cursor: pointer;
 }
+.butttn{
+    margin-right: 50px;
+}
 
 .paragraph1{
+    height: 700px;
+    width: auto;
     display: flex;
     justify-content: space-around;
 
 
 }
+.pppr h3{
+    font-size: 30px;
+
+}
+.pppr h1{
+    font-size: 80px;
+    font-weight: bold;
+}
+.pppr p{
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.metrics{
+    display: flex;
+    margin-right: 50px;
+}
+
+.met{
+    margin-right: 50px;
+}
+
+.met h3{
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(0, 53, 84);
+    margin-bottom: 20px;
+}
+
 .floating1 img{
-    width: 150px;
-    border: 0, 50, 50, 50;
+    width: 500px;
+    height: 450px;
+    background-color: white;
+    border-top-left-radius: 450px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 450px;
+    border-bottom-left-radius: 450px;
 
 }
 .floating2 img{
-    width: 150px;
+    width: 350px;
+    height: auto;
+    text-align: center;
+    position: absolute;
+    top: 480px;
+    left: 950px;
 }
 
 .paragraph2{
@@ -147,6 +191,20 @@ button:hover{
     border-bottom-left-radius: 100px;
 }
 
+.under{
+    display: flex;
+}
+.under h3{
+    font-size: 35px;
+    font-weight: bold;
+    
+
+}
+.under h4{
+    font-size: 8px;
+
+}
+
 .paragraph7{
     margin: 0;
     padding: 0;
@@ -169,10 +227,20 @@ button:hover{
     width: 400px;
     height: auto;
     object-fit: contain;
-;
+}
+
+.para8{
+    text-align: center;
+}
+.paragraph8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 footer{
-    background-color: #413C85;
+    height: 400px;
+    width: auto;
+    background-color: rgb(0, 53, 84);
     display: flex;
     justify-content: space-around;
     align-self: center;
@@ -182,6 +250,7 @@ footer{
     
 }
 footer h2{
+    font-size: 20px;
     color: #B1ACD8;
 
 }

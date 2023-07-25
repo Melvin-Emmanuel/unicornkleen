@@ -1,51 +1,156 @@
-.hero-1{
-    height: 500px;
-    width: 100%;
-    background-color: #e9f7f8;
-    display: flex;
-    flex-direction: column;
-
-
-
+.hero-1 {
+  height: 350px;
+  width: 100%;
+  background-color: #e9f7f8;
+  display: flex;
+  flex-direction: column;
 }
-body{
+/* *{
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat', sans-serif;
-    
+} */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
 }
-.header{
-    display: flex;
-    height: 100px;
-    justify-content: space-between;
-    align-items: center;
+.header {
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation {
+  display: flex;
+  gap: 20px;
+}
+.logoCont {
+  display: flex;
+  gap: 10px;
+  padding-left: 20px;
+}
+.getPrice {
+  margin-right: 20px;
+  padding: 17px 35px;
+  background-color: #00b2d4;
+  border: transparent;
+  border-radius: 20px 0px 20px 20px;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+.contactCont h1 {
+  font-size: 50px;
+  color: #003554;
+}
+.contactCont p {
+  font-size: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  color: #003554;
+}
+.hero-2 {
 
+  height: 700px;
+  width: 100%;
+  display: flex;
 }
-.navigation{
-    display: flex;
-    gap: 20px;
+.hero2-1 {
+  height: 100%;
+  width: 60%;
+  /* background-color: blue; */
+  margin-left: 20px;
 }
-.logoCont{
-    display: flex;
-    gap: 10px;
-    padding-left: 20px;
+.hero2-2 {
+  height: 100%;
+  width: 50%;
+  background-color: cyan;
 }
-.getPrice{
-    margin-right: 20px;
-    padding: 17px 35px;
-    background-color: #00b2d4;
-    border: transparent;
-    border-radius: 20px 0px 20px 20px ;
-    color: white;
-    font-size: 18px;
-    font-weight: 600;
-    
+.email-1 {
+  height: 150px;
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 100px;
 }
-.contactCont h1{
-    font-size: 50px;
+.email-2 {
+  height: 150px;
+  width: 100%;
+  /* background-color: yellow; */
+  display: flex;
+   justify-content: space-between;
+  align-items: center;
+  padding-right: 100px;
+}
+.first {
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+}
+.first h2,.second h2 {
+  margin: 0;
+  padding: 0;
+  color: #003554;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.first p,
+.second p {
+  font-size: 18px;
+  color:#003554;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  text-transform: capitalize;
+}
+.second {
+  display: flex;
+  height: 100px;
+  width: 50%;
+  align-items: center;
+  gap: 20px;
+}
+.emailImage {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background-color: #03b3d5;
+  border: transparent;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero2-1 > h3 {
+color:#00B2D4;
+font-size: 19px;
+margin-top: 10px;
+}
+.hero2-1> h1{
     color: #003554;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.hero2-1 >p{
+    color: #3A4952;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    margin-top: 10px;
+    text-align: justify;
 
 }
-.contactCont p{
-    
+.hero2-1 hr{
+    width: 80%;
+}
+.iconHolder{
+    display: flex;
 }

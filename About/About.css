@@ -6,6 +6,8 @@ body{
     margin: 0;
     padding: 0;
     font-family: "Montserrat" , sans-serif;
+    background-color: gold;
+
 }
 
 header{
@@ -46,7 +48,6 @@ button:hover{
     background-color:transparent ;
 
 }
-
 .hero{
     height: 40vh;
     width: 100%;
@@ -164,6 +165,91 @@ button:hover{
 .card3{
     display: flex;
     align-items: center;
+
+    justify-content: space-between;
+    background-color: white;
+    /* height: 50vh; */
+    width: 100%;
+    padding-top: 70px;
+    /* margin-right: 50px; */
+}
+
+
+
+.card1-image{
+    height: 550px;
+    width: 550px;
+}
+
+.card1-image img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    overflow: hidden;
+}
+
+.card1-writeup{
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    text-align: center;
+    position: absolute;
+    border-bottom-left-radius:50px;
+    left: 30px;
+    top: 10px;
+    margin-left: 50px;
+}
+
+.card1-writeup h2{
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    font-weight: 400;
+    color: #0ECAEE;   
+}
+
+.card1-writeup p{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.card2{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.card2-writeup{
+    height:550px ;
+    width: 550px;
+}
+
+.card2-writeup h2{
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    font-weight: 400;
+    color: #0ECAEE;
+}
+
+.card2-writeup p{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 200;
+}
+.card3{
+    display: flex;
+    align-items: center;
+
+    margin-right: 80px;
+
+
 }
 
 .card3-image{
@@ -191,6 +277,7 @@ button:hover{
     padding: 0;
     font-size: 20px;
     font-weight: 200;
+
 }
 
 .card3-writeup{
@@ -231,9 +318,51 @@ button:hover{
     font-weight: 200;
 }
 
+}
+
+.card3-writeup{
+    padding-bottom: 80px;
+}
+
+.hero3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#EBFAFC ;
+    padding-top: 50px;
+}
+
+.hero-3{
+    margin-right: 80px;
+}
+
+.hero-3 h4{
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    font-weight: 200;
+    color: #0ECAEE;
+}
+
+
+.hero-3 h2{
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.hero3-2 p{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 200;
+}
+
 .container{
     display: flex;
     align-items: center;
     justify-content: space-around;
     background-color: #0ECAEE
 }
+

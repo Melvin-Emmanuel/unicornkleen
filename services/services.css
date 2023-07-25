@@ -1,6 +1,7 @@
 body{
 margin: 0;
 padding: 0;
+font-family: 'Montserrat', sans-serif;
 }
 
 header{
@@ -57,16 +58,34 @@ color: #003554;
 .servicewe{
 display: flex;
 justify-content: space-around;
-flex-direction: row;
-padding: 10px;
+flex-direction: column;
+height: 150px;
 }
 
-.offer{
+.offer h1{
 display: flex;
 justify-content: center;
 align-items: center;
 font-size: 20px;
 color: #00b2d4;
+}
+
+.most p{
+display: flex;
+justify-content: center;
+color: #003554;
+font-size: 19px;
+font-weight: bold;
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+}
+
+.most1{
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+
 }
 
 .image{
@@ -75,6 +94,7 @@ flex-direction: row;
 height: auto;
 flex-wrap: wrap;
 justify-content: space-around;
+margin-top: 50px;
 }
 
 .images{
@@ -97,10 +117,14 @@ width: 150px;
 display: flex;
 font-size: 10px;
 justify-content: flex-start;
-/* margin: 20px; */
+color: #3a4952;
 }
 
-.imgp1{
+.images h4{
+color: #003554;
+}
+
+.imgp1 p{
 font-size: 20px;
 text-align: center;
 }
@@ -118,12 +142,13 @@ margin-left: 100px;
 margin-top: 50px;
 font-size: 30px;
 }
-.mar p{
+.mar h4{
 display: flex;
 justify-content: flex-start;
 align-items: center;
 font-size: 20px;
 margin-left: 100px;
+color: #003554;
 }
 
 .mar p1{

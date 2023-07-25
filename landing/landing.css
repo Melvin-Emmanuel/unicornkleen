@@ -231,11 +231,18 @@ button:hover{
 
 .para8{
     text-align: center;
+
 }
 .paragraph8{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+}
+.graph{
+    width: 350px;
+    border: 3px;
+    border-radius: 30px;
+    background-color: white;
 }
 footer{
     height: 400px;

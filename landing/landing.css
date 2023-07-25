@@ -116,5 +116,10 @@ button:hover{
 
 .paragraph4{
 
+    height: 500px;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 

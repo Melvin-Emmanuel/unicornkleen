@@ -3,6 +3,8 @@ body{
     padding: 0;
     font-family: "Montserrat" , sans-serif;
 }
+<<<<<<< HEAD
+=======
 
 header{
     display: flex;
@@ -43,26 +45,15 @@ button:hover{
 
 }
 
+>>>>>>> ec5a606644e300784d78b74a648feec75af5f5ad
 .hero{
     height: 40vh;
     width: 100%;
     background-color:#E9F8F9 ;
 }
 
-.hero-intro{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-top: 30px;
-}
 
-.hero-intro h1{
-    margin: 0;
-    padding: 0;
-    font-size: 50px;
-    font-weight: 500;
-}
+
 
 .hero-intro p{
     padding: 0;
@@ -81,6 +72,8 @@ button:hover{
     margin-right: 50px;
 }
 
+<<<<<<< HEAD
+=======
 .card1{
     height: 50vh;
     width: 100%;
@@ -206,3 +199,4 @@ button:hover{
 .
 
 
+>>>>>>> ec5a606644e300784d78b74a648feec75af5f5ad

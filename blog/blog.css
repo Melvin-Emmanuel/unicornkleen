@@ -1,42 +1,7 @@
-
-body{
-    margin: 0;
-    padding: 0;
-    font-family: "Montserrat" , sans-serif;
-}
-
-header{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height: 50px;
-}
-
-.Navigation{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-nav{
-    margin-right:  20px;
-}
-nav:hover{
-    text-decoration: underline;
-    cursor: pointer;
-}
-
-button{
-    height: 30px;
-    width: 150px;
-    border-radius: 20px;
-    background-color:#0ECAEE ;
-    color: white;
-
 .cardContainer{
   min-height: 90vh;
-  width: 90%;
-  background-color: #f5f5f5;
+  width: 100%;
+  /* background-color: #f5f5f5; */
   margin-left: 20px;
   margin-right: 20px;
   display: flex;
@@ -44,12 +9,13 @@ button{
 
 }
 .cardHolder{
-    box-shadow: 2px 2px 3px black;
+    /* box-shadow: 2px 2px 3px black; */
     height: 500px;
     width: 350px;
     display: flex;
     flex-direction: column;
-    justify-content:stretch;
+    justify-content: flex-start;
+    margin-top: 20px;
 }
 .cardHolder nav a{
   text-decoration: none;
@@ -88,7 +54,7 @@ font-size: 13px;
 .cardContainer{
   display: flex;
   flex-wrap: wrap;
-  min-width: 90%;
-  justify-content: space-between;
-  flex: 0 1 auto;
+  gap: 20px;
+  justify-content: center;
+
 }

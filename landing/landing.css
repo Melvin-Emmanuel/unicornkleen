@@ -7,6 +7,19 @@ body{
 
 }
 
+h3{
+    font-size: 20px;
+    color: rgb(0, 53, 84);
+}
+h2{
+    font-size: 40px;
+    color: rgb(0, 53, 84);
+}
+p{
+    font-size: 15px;
+    color: rgb(0, 53, 84);
+}
+
 header{
     display: flex;
     justify-content: space-between;
@@ -39,31 +52,30 @@ button:hover{
     cursor: pointer;
 }
 
-.unicornK{
-    margin-right: 20px;
-}
-
-.firstdiv{
+.paragraph1{
     display: flex;
-    justify-content: space-around;
-    text-align: left;
+    justify-content: space-between;
     
-}
 
-.page2{
-    display: flex;
-    justify-content: space-around;
-    
 }
-
-/* .caaard{
-    height: 150px;
+.floating1 img{
     width: 150px;
-    background-color: white;
-    text-align: center;
-    position: absolute;
-    border-bottom-left-radius: 50px;
-    left: 100px;
-    top: 500px;
-    margin-right: 50px;
-} */
+    border: 0, 50, 50, 50;
+
+}
+.floating2 img{
+    width: 150px;
+}
+
+.paragraph2{
+
+}
+
+.paragraph3{
+
+}
+
+.paragraph4{
+
+}
+

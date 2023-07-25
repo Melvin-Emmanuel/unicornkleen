@@ -3,65 +3,14 @@ body{
     padding: 0;
     font-family: "Montserrat" , sans-serif;
 }
-
-header{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height: 50px;
-}
-
-.Navigation{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-nav{
-    margin-right:  20px;
-}
-nav:hover{
-    text-decoration: underline;
-    cursor: pointer;
-}
-
-button{
-    height: 30px;
-    width: 150px;
-    border-radius: 20px;
-    background-color:#0ECAEE ;
-    color: white;
-
-}
-
-
-
-
-button:hover{
-    background-color:transparent ;
-
-}
-
 .hero{
     height: 40vh;
     width: 100%;
     background-color:#E9F8F9 ;
 }
 
-.hero-intro{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-top: 30px;
-}
 
-.hero-intro h1{
-    margin: 0;
-    padding: 0;
-    font-size: 50px;
-    font-weight: 500;
-}
+
 
 .hero-intro p{
     padding: 0;
@@ -78,4 +27,3 @@ button:hover{
     width: 100%;
 }
 
-.card

@@ -1,3 +1,38 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat" , sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 50px;
+}
+
+.Navigation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav{
+    margin-right:  20px;
+}
+nav:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+button{
+    height: 30px;
+    width: 150px;
+    border-radius: 20px;
+    background-color:#0ECAEE ;
+    color: white;
+
 .cardContainer{
   min-height: 90vh;
   width: 90%;

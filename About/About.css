@@ -9,7 +9,6 @@ header{
     align-items: center;
     justify-content: space-around;
     height: 50px;
-    background-color: ;
 }
 
 .Navigation{
@@ -19,7 +18,7 @@ header{
 }
 
 nav{
-    margin: 15px;
+    margin-right:  20px;
 }
 nav:hover{
     text-decoration: underline;
@@ -35,13 +34,16 @@ button{
 
 }
 
+
+
+
 button:hover{
     background-color:transparent ;
 
 }
 
 .hero{
-    height: 30vh;
+    height: 40vh;
     width: 100%;
     background-color:#E9F8F9 ;
 }

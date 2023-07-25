@@ -123,3 +123,8 @@ button:hover{
     align-items: center;
 }
 
+.p4 img{
+    width: 500px;
+    object-fit: contain;
+}
+

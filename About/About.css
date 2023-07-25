@@ -8,7 +8,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 50px;
+    height: 70px;
 }
 
 .Navigation{
@@ -26,9 +26,10 @@ nav:hover{
 }
 
 button{
-    height: 30px;
+    height: 40px;
     width: 150px;
-    border-radius: 20px;
+    border-bottom-right-radius: 40px;
+    border: none;
     background-color:#0ECAEE ;
     color: white;
 
@@ -72,10 +73,136 @@ button:hover{
 .hero-2{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     background-color: white;
-    height: 90vh;
+    height: 50vh;
     width: 100%;
+    padding-top: 70px;
+    margin-right: 50px;
 }
 
-.card
+.card1{
+    height: 50vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card1-image{
+    height: 550px;
+    width: 550px;
+}
+
+.card1-image img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    overflow: hidden;
+}
+
+.card1-writeup{
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    text-align: center;
+    position: absolute;
+    border-bottom-left-radius:50px;
+    left: 30px;
+    top: 10px;
+    margin-left: 50px;
+}
+
+.card1-writeup h2{
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    font-weight: 400;
+    color: #0ECAEE;   
+}
+
+.card1-writeup p{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.card2{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card2-writeup{
+    height:550px ;
+    width: 550px;
+}
+
+.card2-writeup h2{
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    font-weight: 400;
+    color: #0ECAEE;
+}
+
+.card2-writeup p{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 200;
+}
+.card3{
+    position: relative;
+    left: 300px;
+    bottom:300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 80px;
+}
+
+.card3-image{
+    height: 250px;
+    width: 250px;
+    margin: 15px;
+}
+
+.card3-image img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    overflow: hidden;
+}
+
+.card3-writeup h2{
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.card3-writeup p{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.card3-writeup{
+    padding-bottom: 80px;
+}
+
+.hero3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#EBFAFC ;
+}
+
+.
+
+

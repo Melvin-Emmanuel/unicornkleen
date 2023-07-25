@@ -1,7 +1,27 @@
 body{
 margin: 0;
 padding: 0;
-font-family: 'Montserrat', sans-serif;
+}
+
+header{
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 20px;
+height: 60px;
+}
+
+.Navigation{
+display: flex;
+align-items: center;
+justify-content: space-around;
+flex-direction: row;
+color: #003554;
+}
+
+.nav:hover{
+color: #00b2d4;
+text-decoration: underline;
 }
 
 .servicepage{
@@ -147,6 +167,13 @@ width: 170px;
 object-fit: cover;
 }
 
+.carprt{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+}
+
 .carprt p{
 font-size: 15px;
 display: flex;
@@ -157,4 +184,12 @@ color: #3a4952;
 .carprt h4{
 font-size: 18px;
 margin-left: 80px;
+}
+
+.carprt img{
+height: 100px;
+width: 100px;
+object-fit: cover;
+align-items: center;
+justify-content: space-around;
 }

@@ -68,3 +68,14 @@ button:hover{
     font-size: 20px;
     font-weight: 200;
 }
+
+.hero-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 90vh;
+    width: 100%;
+}
+
+.card

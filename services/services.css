@@ -2,12 +2,21 @@ body {
   margin: 0;
   padding: 0;
 }
-
-
+.header{
+  background-color: #e9f7f8;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+.cont{
+  /* background-color: #ebf9fb; */
+}
 
 .servicepage {
   background-color: #ebf9fb;
   height: 350px;
+  margin-top: -35px;
 }
 
 .serpage h1 {

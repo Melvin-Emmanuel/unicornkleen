@@ -3,20 +3,57 @@ body{
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    background-color: 0ECAEE;
+    background-color: #EAF8FA;
 
 }
 
 header{
-    padding: 50px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 40px;
+    align-items: center;
+    background-color: #EAF8FA;
+}
+.navigationtag{
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
+nav{
+    margin-right: 30px;
+}
+nav:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+button{
+    background-color: #0ECAEE;
+    height: 30px;
+    width: 150px;
+    border-radius: 20px;
+
+}
+button:hover{
+    text-decoration: overline;
+    cursor: pointer;
+}
+
 .unicornK{
-    margin-right: 50px;
+    margin-right: 20px;
 }
 
 .firstdiv{
-    margin-left: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.firsttext h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.firsttext h1 {
+    font-size: 66px;
+    font-weight: bolder;
 }

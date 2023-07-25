@@ -1,101 +1,200 @@
-body{
-margin: 0;
-padding: 0;
-font-family: "Montserrat", sans-serif;
+body {
+  margin: 0;
+  padding: 0;
 }
 
-header{
-display: flex;
-align-items: center;
-justify-content: center;
-padding: 20px;
-height: 60px;
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  height: 60px;
 }
 
-.Navigation{
-display: flex;
-align-items: center;
-justify-content: space-around;
-flex-direction: row;
-color: #003554;
+.Navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  color: #003554;
 }
 
-.nav:hover{
-color: #00b2d4;
-text-decoration: underline;
+.nav:hover {
+  color: #00b2d4;
+  text-decoration: underline;
 }
 
-.servicepage{
-background-color: #ebf9fb;
-height: 350px;
+.servicepage {
+  background-color: #ebf9fb;
+  height: 350px;
 }
 
-
-
-.serpage h1{
-display: flex;
-justify-content: center;
-align-items: center;
-font-size: 50px;
-font-weight: bold;
-color: #003554;
-margin-bottom: 30px;
+.serpage h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-weight: bold;
+  color: #003554;
+  margin-bottom: 30px;
 }
 
-.writup{
-display: flex;
-justify-content: center;
-align-items: center;
+.writup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.writup p{
-font-size: 15px;
-text-align: center;
-padding: 0;
-color: #003554;
+.writup p {
+  font-size: 15px;
+  text-align: center;
+  padding: 0;
+  color: #003554;
 }
 
-.servicewe{
-display: flex;
-justify-content: space-around;
-flex-direction: row;
-padding: 10px;
+.servicewe {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 150px;
 }
 
-.offer{
-display: flex;
-justify-content: center;
-align-items: center;
-font-size: 20px;
-color: #00b2d4;
+.offer h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: #00b2d4;
 }
 
-.image{
-display: flex;
-flex-direction: row;
-height: 100px;
-flex-wrap: wrap;
-justify-content: space-around;
+.most p {
+  display: flex;
+  justify-content: center;
+  color: #003554;
+  font-size: 19px;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
 }
 
-.images{
-width: 300px;
-height: auto;
-display: flex;
-flex-direction: column;
-align-items: center;
+.most1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #3a4952;
 }
 
-.image img{
-height: 150px;
-width: 150px;
-object-fit: cover;
-border-radius: 0px 360px 360px 360px;
+.image {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
-.images p{
-width: 150px;
-display: flex;
-font-size: 10px;
-justify-content: flex-start;
+.images {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.image img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 0px 330px 330px 330px;
+}
+
+.images p {
+  width: 150px;
+  display: flex;
+  font-size: 10px;
+  justify-content: flex-start;
+  color: #3a4952;
+  line-height: 29px;
+  font-style: normal;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.images h4 {
+  color: #003554;
+  text-align: center;
+  font-size: 22px;
+  font-family: Montserrat, sans-serif;
+}
+
+.secon h1 {
+  font-size: 15px;
+  display: flex;
+  margin-left: 100px;
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+.mar h4 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 20px;
+  margin-left: 100px;
+  color: #003554;
+  margin-top: 50px;
+}
+
+.mar p {
+  justify-content: center;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  color: #3a4952;
+}
+
+.imagema {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.marbl img {
+  height: 100px;
+  width: 170px;
+  object-fit: cover;
+}
+
+.carprt {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.carprt p {
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  color: #3a4952;
+}
+
+.carprt h4 {
+  font-size: 18px;
+  margin-left: 80px;
+}
+
+.carprt img {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10px;
+}
+.carpet_hold {
+  display: flex;
 }

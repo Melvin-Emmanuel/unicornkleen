@@ -1,3 +1,7 @@
+
+
+
+
 body{
     margin: 0;
     padding: 0;
@@ -5,7 +9,6 @@ body{
     background-color: gold;
 
 }
-
 
 header{
     display: flex;
@@ -51,8 +54,20 @@ button:hover{
     background-color:#E9F8F9 ;
 }
 
+.hero-intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
 
-
+.hero-intro h1{
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    font-weight: 500;
+}
 
 .hero-intro p{
     padding: 0;
@@ -63,14 +78,13 @@ button:hover{
 .hero-2{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     background-color: white;
-    height: 50vh;
+    /* height: 50vh; */
     width: 100%;
     padding-top: 70px;
-    margin-right: 50px;
+    /* margin-right: 50px; */
 }
-
 
 .card1{
     height: 50vh;
@@ -121,10 +135,12 @@ button:hover{
 }
 
 .card2{
-    height: 50vh;
+    height: 400px;
     width: 100%;
     display: flex;
+    justify-content: center;
     flex-direction: column;
+
 }
 
 .card2-writeup{
@@ -147,11 +163,9 @@ button:hover{
     font-weight: 200;
 }
 .card3{
-    position: relative;
-    left: 300px;
-    bottom:300px;
     display: flex;
     align-items: center;
+
     justify-content: space-between;
     background-color: white;
     /* height: 50vh; */
@@ -235,6 +249,7 @@ button:hover{
 
     margin-right: 80px;
 
+
 }
 
 .card3-image{
@@ -312,10 +327,42 @@ button:hover{
 .hero3{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     background-color:#EBFAFC ;
+    padding-top: 50px;
+}
+
+.hero-3{
+    margin-right: 80px;
+}
+
+.hero-3 h4{
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    font-weight: 200;
+    color: #0ECAEE;
 }
 
 
+.hero-3 h2{
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    font-weight: bold;
+}
 
+.hero3-2 p{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #0ECAEE
+}
 

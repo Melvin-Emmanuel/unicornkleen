@@ -240,16 +240,22 @@ button:hover{
     align-items: center;
 }
 .graph{
+    text-align: center;
     width: 350px;
     border: 3px;
     border-radius: 30px;
     background-color: white;
 }
-.graphcenter{
+
+.graphblue{
     width: 350px;
     border: 3px;
     border-radius: 30px;
     background-color: #0ECAEE;
+}
+
+.graphblue button {
+    background-color: white;
 }
 
 .paragraph10{

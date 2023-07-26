@@ -67,14 +67,15 @@ body {
 }
 .hero2-1 {
   height: 100%;
-  width: 60%;
+  width: 50%;
   /* background-color: blue; */
-  margin-left: 20px;
+  margin-left: 10px;
 }
 .hero2-2 {
   height: 100%;
   width: 50%;
   /* background-color: cyan; */
+  margin-top: 30px;
 }
 .email-1 {
   height: 150px;
@@ -128,8 +129,8 @@ body {
   gap: 20px;
 }
 .emailImage {
-  height: 70px;
-  width: 70px;
+  height: 60px;
+  width: 60px;
   border-radius: 50%;
   background-color: #03b3d5;
   border: transparent;
@@ -182,12 +183,16 @@ margin-top: 10px;
     justify-content: space-between;
     align-items: center;
 }
-#name,#email,#phon,#service,#message{
+#name,#email,#PhoneNumber,#service,#message{
     border: transparent;
     outline: none;
     background-color:transparent;
-    border-bottom: 1px solid #3a4952;
+    /* border-bottom: 1px solid #3a4952; */
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 50px;
     width: 90%;
+    font-size: 20px;
     
 }
 label{
@@ -203,7 +208,7 @@ form{
     height: 100%;
     display: flex;
     flex-direction: column;
-    gap: 36.5px;
+    gap: 30px;
 }
 .navigation a{
     text-decoration: none;
@@ -221,6 +226,13 @@ form{
     font-weight: 500;
     font-family:'prompt','sans-serif';
     margin-top: -20px;
+    cursor: pointer;
+    
+}
+.appoint:hover{
+  background-color: white;
+  border: 1px solid grey ;
+  color: #00B2D4;
 }
 #message::after{
     content: url();

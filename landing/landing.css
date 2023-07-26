@@ -305,11 +305,14 @@ button:hover{
     background-color: white;
     display: flex;
     justify-content: space-between;
+    padding: 30px;
 }
 .rrrr12{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    border: 1px;
+    background-color: white;
 
 }
 .ppp2{

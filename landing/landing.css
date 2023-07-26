@@ -2,14 +2,13 @@ body{
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
     background-color: #EAF8FA;
 
 }
 
 h3{
     font-size: 20px;
-    color: rgb(0, 53, 84);
+    color: #0EE1FB;
 }
 h2{
     font-size: 40px;
@@ -21,6 +20,7 @@ p{
 }
 
 header{
+    padding: 50px;
     display: flex;
     justify-content: space-between;
     padding: 40px;
@@ -45,6 +45,7 @@ button{
     width: 150px;
     border-radius: 20px;
     border: 1px;
+    color: white;
 
 }
 button:hover{
@@ -70,6 +71,7 @@ button:hover{
 .pppr h1{
     font-size: 80px;
     font-weight: bold;
+    color: rgb(0, 53, 84);
 }
 .pppr p{
     font-size: 15px;
@@ -139,14 +141,19 @@ button:hover{
 
 }
 .whitepaper h1{
-    font-size: 70px;
+    font-size: 60px;
     font-weight: bolder;
     text-align: center;
+    color: rgb(0, 53, 84);
+}
+.whitepaper p{
+    margin-top: 50px;
+    text-align: center;
+    color: rgb(0, 53, 84);
 }
 
 .paragraph3{
     height: 500px;
-    width: auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -155,24 +162,31 @@ button:hover{
 .ftft img{
     width: 400px;
     object-fit: contain;
+    
 
 }
 
-.paragraph4{
 
-    height: 500px;
-    width: auto;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
 
 .p4 img{
     width: 500px;
     object-fit: contain;
 }
 
+.p44 img{
+    width: 300px;
+    height: 300px;
+}
+.Popular_cleaning{
+    display: flex;
+    justify-content: space-between;
+} */
+
 .paragraph5{
+    text-align: center;
+}
+
+.paragraph5i{
     text-align: center;
 }
 
@@ -214,8 +228,12 @@ button:hover{
 
 }
 .lol  img{
-    width: 800px;
-    object-fit: contain;
+    width: 550px;
+    height: 378px;
+    /* object-fit: contain; */
+    background-color: #0ECAEE;
+
+    
 }
 
 .para77{
@@ -224,7 +242,7 @@ button:hover{
 }
 
 .fix77 > img{
-    width: 400px;
+    width: 280px;
     height: auto;
     object-fit: contain;
 }
@@ -242,13 +260,23 @@ button:hover{
 .graph{
     text-align: center;
     width: 350px;
+    height: 400px;
     border: 3px;
     border-radius: 30px;
     background-color: white;
 }
 
+.hmm h3{
+    font-size: 10px;
+}
+
+.zzz{
+     color: rgb(0, 53, 84);}
+
+
 .graphblue{
     width: 350px;
+    height: 400px;
     border: 3px;
     border-radius: 30px;
     background-color: #0ECAEE;
@@ -284,7 +312,7 @@ button:hover{
     width: 350px;
     height: 350px;
     object-fit: contain;
-    top: 4305px;
+    top: 3505px;
     right: 30px;
 }
 
@@ -312,7 +340,7 @@ button:hover{
     justify-content: space-between;
     flex-direction: column;
     border: 1px;
-    background-color: white;
+    align-items: center;
 
 }
 .ppp2{

@@ -160,21 +160,28 @@
       </div>
       <div class="hero2-2">
         <form action="">
-          <label for="name">Name</label>
-          <input type="text" id="name" />
+          <div class="i1">
+            <label for="name">Name</label><br />
+            <input type="text" id="name" placeholder="NAME" />
+          </div>
+          <div class="i2">
+            <label for="email">Email</label><br />
+            <input type="text" id="email" placeholder="Enter Name"/>
+          </div>
 
-          <label for="email">Email</label>
-          <input type="text" id="email" />
-
-          <label for="name">Phone Number</label>
-          <input type="text" id="name" />
-
-          <label for="service">Service</label>
-          <input type="text" id="service" />
-
-          <label for="message">Message</label>
-          <input type="text" id="message" />
-          <button class="appoint">Confirm Appointment</button>
+          <div class="i3">
+            <label for="phoneNumber">Phone Number</label><br>
+          <input type="text" id="PhoneNumber"  placeholder="e.g +2347089......"/>
+          </div>
+          <div class="i4">
+            <label for="service">Service</label><br>
+            <input type="text" id="service" placeholder="Enter Service Type"/>
+          </div>
+          <div class="i5">
+            <label for="message">Message</label><br>
+            <input type="text" id="message" placeholder="Message for fast response" />
+          </div>
+          <button class="appoint" id="appoint">Confirm Appointment</button>
         </form>
       </div>
     </div>
@@ -213,5 +220,6 @@
         <img src="./images/Google-Maps-Tips.png" alt="" />
       </div>
     </div>
+    <script src="./contact.js"></script>
   </body>
 </html>

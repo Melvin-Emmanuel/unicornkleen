@@ -310,7 +310,11 @@ button:hover{
     justify-content: space-between;
     margin-left: 50px;
 }
-
+.btnnnn{
+    height: 50px;
+    width: 350px;
+    border-radius: 5px;
+}
 
 footer{
     height: 400px;

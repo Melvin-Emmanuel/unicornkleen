@@ -230,6 +230,7 @@ button:hover{
 }
 
 .para8{
+    padding: 30px;
     text-align: center;
 
 }
@@ -250,6 +251,67 @@ button:hover{
     border-radius: 30px;
     background-color: #0ECAEE;
 }
+
+.paragraph10{
+    background-color: #EAF8FA;
+
+}
+.para10{
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.ra10{
+    padding: 30px;
+}
+.p10 img{
+    border-radius: 5px;
+    margin-right: 400px;
+    width: 350px;
+    object-fit: contain;
+}
+.pp10 img{
+    border-radius: 5px;
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    object-fit: contain;
+    top: 4288px;
+    right: 30px;
+}
+
+.paragraph11{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.paragraph11i{
+    width: 300px;
+    height: 280px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.paragraph12{
+    display: flex;
+    justify-content: space-between;
+}
+.rrrr12{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+.pppp12{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+
+
 footer{
     height: 400px;
     width: auto;

@@ -373,7 +373,11 @@ button:hover{
     justify-content: center;
     position: relative;
     top: 200px;
-    right: 670px;
+    right: 650px;
+}
+
+.icon-1-writeup h2{
+    width: 250px;
 }
 
 

@@ -314,6 +314,59 @@ button:hover{
     overflow: hidden;
 }
 
+.writeup-with2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+    background-color:#EBFAFC;
+}
+
+.write{
+    padding-top: 50px;
+}
+
+.write h2{
+    font-weight: 700;
+    color: #0ECAEE;
+}
+
+.write image{
+    height: 30px;
+    width: 30px;
+}
+
+
+
+.write img{
+    height: 50%;
+    width: 50%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+
+.write-in-1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.write-in-1 h4{
+    color: #0ECAEE;
+
+}
+
+.write-in-1 h2{
+    font-weight: 700;
+}
+
+.write-in-1 p{
+    font-size: 20px;
+    font-weight: 200;
+}
+
+
 
 
 

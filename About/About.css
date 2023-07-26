@@ -320,9 +320,11 @@ button:hover{
     justify-content: center;
     margin-right: 50px;
     background-color:#EBFAFC;
+    padding-top: 70px;
 }
 
 .write{
+    margin-left: 100px;
     padding-top: 50px;
 }
 
@@ -333,7 +335,7 @@ button:hover{
 
 .write image{
     height: 30px;
-    width: 30px;
+    width: 70px;
 }
 
 
@@ -349,7 +351,6 @@ button:hover{
 .write-in-1{
     display: flex;
     flex-direction: column;
-    text-align: center;
 }
 
 .write-in-1 h4{
@@ -365,6 +366,16 @@ button:hover{
     font-size: 20px;
     font-weight: 200;
 }
+
+.icon-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 200px;
+    right: 670px;
+}
+
 
 
 

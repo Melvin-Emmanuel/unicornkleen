@@ -53,7 +53,7 @@ button:hover{
     cursor: pointer;
 }
 .butttn{
-    margin-right: 50px;
+    margin-right: 20px;
 }
 
 .paragraph1{
@@ -495,6 +495,7 @@ button:hover{
     justify-content: space-between;
     margin-right: 50px;
     padding-right: 50px;
+    color: black;
 }
 .btnnnn{
     height: 50px;
@@ -505,6 +506,10 @@ button:hover{
 .in {
     margin-right: 10px;
 }
+
+
+
+
 .fig{
     margin-right: 100px;
 

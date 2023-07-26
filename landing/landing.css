@@ -195,6 +195,10 @@ button:hover{
     justify-content: space-around;
     align-items: center;
 }
+
+.rice{
+    /* margin-right: 20px; */
+}
 .rice img{
     height: 200px;
     width: 200px;
@@ -215,7 +219,7 @@ button:hover{
 
 }
 .under h4{
-    font-size: 8px;
+    font-size: 10px;
 
 }
 
@@ -254,12 +258,12 @@ button:hover{
 }
 .paragraph8{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 .graph{
     text-align: center;
-    width: 350px;
+    width: 300px;
     height: 400px;
     border: 3px;
     border-radius: 30px;
@@ -268,6 +272,7 @@ button:hover{
 
 .hmm h3{
     font-size: 10px;
+    
 }
 
 .zzz{
@@ -275,11 +280,22 @@ button:hover{
 
 
 .graphblue{
-    width: 350px;
+    width: 300px;
     height: 400px;
     border: 3px;
     border-radius: 30px;
     background-color: #0ECAEE;
+    color: white;
+}
+
+.graphblue > h3{
+    color: white;
+
+}
+.zip h3{
+    font-size: 10px;
+    color: white;
+
 }
 
 .graphblue button {
@@ -326,14 +342,25 @@ button:hover{
     width: 300px;
     height: 280px;
     border-radius: 5px;
-    background-color: white;
+    background-color: lightgray;
 }
 
 .paragraph12{
-    background-color: white;
+    width: 80%;
+    margin: 70px auto;
     display: flex;
     justify-content: space-between;
-    padding: 30px;
+    padding: 60px;
+    background-color: #ffff;
+    border-radius: 4px;
+}
+
+.text_p{
+    font-size: small;
+}
+
+.textvisible p{
+    font-size: 14px;
 }
 .rrrr12{
     display: flex;
@@ -354,7 +381,7 @@ button:hover{
 .r3{
     border-radius: 5px;
     height: 40px;
-    width: 350px;
+    width: 430px;
 }
 .pppp12{
     display: flex;
@@ -364,8 +391,15 @@ button:hover{
 }
 .btnnnn{
     height: 50px;
-    width: 350px;
+    width: 440px;
     border-radius: 5px;
+    margin-right: 100px;
+}
+.in {
+    margin-right: 10px;
+}
+.fig{
+    margin-right: 100px;
 }
 
 footer{

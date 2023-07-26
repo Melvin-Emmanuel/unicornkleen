@@ -240,16 +240,22 @@ button:hover{
     align-items: center;
 }
 .graph{
+    text-align: center;
     width: 350px;
     border: 3px;
     border-radius: 30px;
     background-color: white;
 }
-.graphcenter{
+
+.graphblue{
     width: 350px;
     border: 3px;
     border-radius: 30px;
     background-color: #0ECAEE;
+}
+
+.graphblue button {
+    background-color: white;
 }
 
 .paragraph10{
@@ -306,10 +312,24 @@ button:hover{
     flex-direction: column;
 
 }
+.ppp2{
+    margin-left: 50px;
+}
+.r2{
+    border-radius: 5px;
+    height: 40px;
+    width: 200px;
+}
+.r3{
+    border-radius: 5px;
+    height: 40px;
+    width: 350px;
+}
 .pppp12{
     display: flex;
     justify-content: space-between;
-    margin-left: 50px;
+    margin-right: 50px;
+    padding-right: 50px;
 }
 .btnnnn{
     height: 50px;

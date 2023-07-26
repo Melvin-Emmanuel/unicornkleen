@@ -153,9 +153,9 @@ body {
 }
 
 .marbl img {
-  height: 100px;
-  width: 170px;
-  object-fit: cover;
+  height: 300px;
+  width: 100%;
+  object-fit: contain;
 }
 
 .carprt {
@@ -172,19 +172,49 @@ body {
   color: #3a4952;
 }
 
+.upholstery{
+ display: flex;
+ justify-content: flex-start;
+  align-items: center;
+}
 .carprt h4 {
-  font-size: 18px;
-  margin-left: 80px;
+  
+  font-size: 20px;
+  margin-left: 100px;
+  color: #003554;
+  margin-top: 50px;
+  margin-right: 20px;
 }
 
-.carprt img {
+.carpet img {
   height: 100px;
-  width: 100px;
-  object-fit: cover;
-  align-items: center;
-  justify-content: space-around;
-  margin: 10px;
+  width: 100%;
 }
 .carpet_hold {
   display: flex;
+  margin: 10px;
+  overflow: hidden;
+  object-fit: contain;
+  display: flex;
+  justify-content: center;
+}
+
+.carpet {
+height: 800px;
+width: 200px;
+margin: 30px;
+}
+
+.dive{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.wri h3{
+font-size: 32px;
+font-weight: 700;
+line-height: 48px;
+color: #003554;
+font-family: montserrat;
 }

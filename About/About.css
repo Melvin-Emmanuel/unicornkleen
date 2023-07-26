@@ -75,8 +75,7 @@ button:hover{
 
 .hero-intro p{
     padding: 0;
-    font-size: 20px;
-    font-weight: 200;
+    font-weight: 400;
 }
 
 .hero-2{
@@ -99,7 +98,7 @@ button:hover{
 }
 
 .card1-image{
-    height: 550px;
+    height: 400px;
     width: 550px;
 }
 
@@ -118,8 +117,8 @@ button:hover{
     position: absolute;
     border-radius:0px 50px 0px 50px;
     text-align: center;
-    left: 30px;
-    top: 3px;
+    left: 35px;
+    top: 0px;
     margin-left: 50px;
 }
 
@@ -133,8 +132,7 @@ button:hover{
 .card1-writeup p{
     margin: 0;
     padding: 0;
-    font-size: 20px;
-    font-weight: 200;
+    font-weight: 400;
 }
 
 .card2{
@@ -161,8 +159,7 @@ button:hover{
 .card2-writeup p{
     margin: 0;
     padding: 0;
-    font-size: 20px;
-    font-weight: 200;
+    font-weight: 400;
 }
 .card3{
     display: flex;
@@ -191,8 +188,7 @@ button:hover{
 .card3-writeup p{
     margin: 0;
     padding: 0;
-    font-size: 20px;
-    font-weight: 200;
+    font-weight: 400;
 }
 
 .card3-writeup{
@@ -227,8 +223,7 @@ button:hover{
 .hero3-2 p{
     margin: 0;
     padding: 0;
-    font-size: 20px;
-    font-weight: 200;
+    font-weight: 400;
 }
 
 .container{
@@ -239,6 +234,7 @@ button:hover{
 }
 
 .container-1{
+    padding-bottom: 40px;
     height: 100px;
     width: 250px;
     border-radius: 0px 50px 50px 50px;
@@ -284,8 +280,7 @@ button:hover{
 }
 
 .write-up-1 p{
-    font-size: 20px;
-    font-weight: 200;
+    font-weight: 400;
 }
 
 .cardimage{
@@ -313,6 +308,139 @@ button:hover{
     object-fit: cover;
     overflow: hidden;
 }
+
+.writeup-with2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+    background-color:#EBFAFC;
+}
+
+.write{
+    margin-left: 100px;
+}
+
+.write h2{
+    font-weight: 700;
+    color: #0ECAEE;
+}
+
+.write image{
+    height: 70px;
+    width: 70px;
+}
+
+
+
+.write img{
+    height: 50%;
+    width: 50%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+
+.write-in-1{
+    display: flex;
+    padding-bottom: 50px;
+    flex-direction: column;
+}
+
+.write-in-1 h4{
+    color: #0ECAEE;
+
+}
+
+.write-in-1 h2{
+    font-weight: 700;
+}
+
+.write-in-1 p{
+    font-weight: 400;
+}
+
+.icon-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 120px;
+    right: 530px;
+}
+
+.icon-1-writeup h2{
+    width: 250px;
+}
+
+.my{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: 850px;
+    top: 160px;
+}
+
+.my-butt{
+    height: 40px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color:#0ECAEE ;
+    color: white;
+    border-radius: 20px;
+}
+
+.my-butt:hover{
+    background-color: #00B2D4;
+}
+
+.the-end{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.the-end-intro h2{
+    text-align: center;
+    font-weight: 700;
+}
+
+.the-end-intro h3 {
+    font-weight: 700;
+    text-align: center;
+    color: #0ECAEE;
+}
+
+.the-end-intro p{
+    font-weight: 400;
+    text-align: center;
+}
+
+.no-sign{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    text-align: center;
+}
+
+.sign h2{
+    color: #0ECAEE;
+    font-weight: 700;
+}
+
+.sign h3{
+    font-weight: 700;
+}
+
+
 
 
 

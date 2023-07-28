@@ -48,6 +48,7 @@ header{
 }
 nav{
     margin-right: 30px;
+    color:  rgb(0, 53, 84);
 }
 nav:hover{
     cursor: pointer;
@@ -85,7 +86,7 @@ button:hover{
 
 }
 .pppr h1{
-    font-size: 80px;
+    font-size: 70px;
     font-weight: bold;
     color: rgb(0, 53, 84);
 }
@@ -207,7 +208,7 @@ li{
 
 
 
-.p4 img{
+.p4 img{git 
     width: 500px;
     object-fit: contain;
 }

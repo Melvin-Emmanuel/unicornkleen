@@ -70,9 +70,13 @@ body {
 .most1 {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   text-align: center;
   color: #3a4952;
+
+}
+.image{
+  margin-top: 30px;
 }
 
 .image {

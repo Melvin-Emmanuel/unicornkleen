@@ -298,3 +298,13 @@ object-fit: cover;
 overflow: hidden;
 margin-top: 20px;
 }
+.hanburgar{
+display: none;
+}
+.navigation{
+display: flex;
+}
+.navigation nav{
+  margin-right: 30px;
+}
+

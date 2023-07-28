@@ -2,9 +2,12 @@ body{
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #EAF8FA;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/pexels-karolina-grabowska-4239031-1024x683.jpg);
+   
+    overflow-x: hidden;
 
 }
+
 
 h3{
     font-size: 20px;
@@ -17,6 +20,12 @@ h2{
 p{
     font-size: 15px;
     color: rgb(0, 53, 84);
+}
+
+.loggo img{
+    margin-top: 8px;
+    height: 50px;
+    width: 50px;
 }
 
 header{
@@ -36,7 +45,6 @@ nav{
     margin-right: 30px;
 }
 nav:hover{
-    text-decoration: underline;
     cursor: pointer;
 }
 button{
@@ -49,11 +57,13 @@ button{
 
 }
 button:hover{
-    text-decoration: underline;
     cursor: pointer;
 }
 .butttn{
     margin-right: 20px;
+}
+.unicornk{
+    display: flex;
 }
 
 .paragraph1{
@@ -61,6 +71,7 @@ button:hover{
     width: auto;
     display: flex;
     justify-content: space-around;
+    background-color: #E9F8F9;
 
 
 }
@@ -125,6 +136,7 @@ button:hover{
 .imgg img{
     width: 700px;
     object-fit: contain;
+    margin-left: 50px;
 }
 .whitepaper{
     height: 200px;
@@ -157,10 +169,21 @@ button:hover{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 40px;
+    background-color: #E9F8F9;
+
+   
 
 }
+.paragraph3-DIV1{
+    margin-right: 50px;
+   
+}
+.list{
+    display: flex;
+}
 .ftft img{
-    width: 400px;
+    width: 500px;
     object-fit: contain;
     
 
@@ -180,10 +203,11 @@ button:hover{
 .Popular_cleaning{
     display: flex;
     justify-content: space-between;
-} */
+} 
 
 .paragraph5{
     text-align: center;
+    background-color: white;
 }
 
 .paragraph5i{
@@ -196,18 +220,18 @@ button:hover{
     align-items: center;
 }
 
-.rice{
-    /* margin-right: 20px; */
-}
 .rice img{
-    height: 200px;
-    width: 200px;
-    background-color: white;
-    border-top-left-radius: 0px ;
+    width: 150px;
+    border-top-left-radius: 100px ;
     border-top-right-radius: 100px;
     border-bottom-right-radius: 100px;
-    border-bottom-left-radius: 100px;
 }
+.rice h3{
+    font-size: small;
+}
+
+   
+
 
 .under{
     display: flex;
@@ -225,15 +249,15 @@ button:hover{
 
 .paragraph7{
     margin: 0;
-    padding: 0;
     display: flex;
     justify-content: center;
+    /* background-color: black; */
 
 
 }
 .lol  img{
-    width: 550px;
-    height: 378px;
+    width: 570px;
+    height: 429px;
     /* object-fit: contain; */
     background-color: #0ECAEE;
 
@@ -246,50 +270,12 @@ button:hover{
 }
 
 .fix77 > img{
-    width: 280px;
+    width:320px;
     height: auto;
     object-fit: contain;
 }
 
-.para8{
-    padding: 30px;
-    text-align: center;
 
-}
-.paragraph8{
-    display: flex;
-
-    justify-content: space-between;
-    align-items: center;
-}
-.graph{
-    text-align: center;
-    width: 350px;
-    height: 400px;
-    border: 3px;
-    border-radius: 30px;
-    background-color: white;
-}
-
-.hmm h3{
-    font-size: 10px;
-}
-
-.zzz{
-     color: rgb(0, 53, 84);}
-
-
-.graphblue{
-    width: 350px;
-    height: 400px;
-    border: 3px;
-    border-radius: 30px;
-    background-color: #0ECAEE;
-}
-
-.graphblue button {
-    background-color: white;
-}
 
 .paragraph10{
     background-color: #EAF8FA;
@@ -308,17 +294,14 @@ button:hover{
 .p10 img{
     border-radius: 5px;
     margin-right: 400px;
-    width: 350px;
+    width: 550px;
     object-fit: contain;
 }
 .pp10 img{
     border-radius: 5px;
-    position: absolute;
     width: 350px;
     height: 350px;
     object-fit: contain;
-    top: 3505px;
-    right: 30px;
 }
 
 .paragraph11{
@@ -326,6 +309,7 @@ button:hover{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #E9F8F9;
 }
 .paragraph11i{
     width: 300px;
@@ -339,22 +323,25 @@ button:hover{
     display: flex;
     justify-content: space-between;
     padding: 30px;
+    /* height: 0px; */
+
 }
 .rrrr12{
+    
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-
-    align-items: center;
-
+    align-items: end;
 }
 .ppp2{
     margin-left: 50px;
 }
-.r2{
+.r2 input{
     border-radius: 5px;
     height: 40px;
     width: 200px;
+    border: 2px solid black;
+    outline: none;
 }
 .r3{
     border-radius: 5px;
@@ -366,6 +353,7 @@ button:hover{
     justify-content: space-between;
     margin-right: 50px;
     padding-right: 50px;
+   
 }
 
 .graph{
@@ -410,12 +398,13 @@ button:hover{
 }
 
 .paragraph10{
+    
     background-color: #EAF8FA;
 
 }
 .para10{
     background-color: white;
-    padding: 20px;
+    padding: 40px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -442,11 +431,12 @@ button:hover{
 .paragraph11{
     padding: 30px;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-around;
     align-items: center;
 }
 .paragraph11i{
-    width: 300px;
+    padding: 20px;
+    width: 250px;
     height: 280px;
     border-radius: 5px;
     background-color: lightgray;
@@ -454,7 +444,8 @@ button:hover{
 
 .paragraph12{
     width: 80%;
-    margin: 70px auto;
+    margin: 20px auto;
+    text-align: center;
     display: flex;
     justify-content: space-between;
     padding: 60px;
@@ -470,15 +461,17 @@ button:hover{
     font-size: 14px;
 }
 .rrrr12{
+    
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     border: 1px;
     align-items: center;
+    margin-left: 90px;
 
 }
 .ppp2{
-    margin-left: 50px;
+    margin-right: 50px;
 }
 .r2{
     border-radius: 5px;
@@ -494,53 +487,77 @@ button:hover{
     display: flex;
     justify-content: space-between;
     margin-right: 50px;
-    padding-right: 50px;
-    color: black;
+    /* padding-right: 50px; */
+   
 }
+.pppp12 > h3{
+    color: rgb(0, 53, 84);}
+
 .btnnnn{
     height: 50px;
-    width: 440px;
+    width: 420px;
     border-radius: 5px;
     margin-right: 100px;
 }
-.in {
-    margin-right: 10px;
+
+.inn{
+    margin-left: 100px;
 }
+.inn h3{
+    color: rgb(0, 53, 84);
+
+}
+.bt{
+    text-align: center;
+    margin-right: 100px;
+}
+
+    
+.in h3{
+    color: rgb(0, 53, 84);}
+
 
 
 
 
 .fig{
-    margin-right: 100px;
+    margin-right: 100px;}
 
-.btnnnn{
+/* .btnnnn{
     height: 50px;
     width: 350px;
     border-radius: 5px;
-}
+} */
 
 footer{
-    height: 400px;
+    height: 200px;
     width: auto;
     background-color: rgb(0, 53, 84);
     display: flex;
     justify-content: space-around;
     align-self: center;
-    padding-top: 50px;
-    padding-bottom: 30px; 
+    padding: 40px; 
 
     
 }
+footer h3{
+    color: white;
+}
 footer h2{
     font-size: 20px;
-    color: #B1ACD8;
+    color: white;
 
 }
 footer h4{
     color: white;
 }
 footer p{
-    color: #B1ACD8;
+    color: white;
 }
 .f2{
-    margin-right: 30px;}
+    margin-right: 30px;
+}
+.git{
+    padding: 00;
+
+}

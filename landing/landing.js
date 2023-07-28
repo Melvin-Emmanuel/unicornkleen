@@ -1,4 +1,4 @@
-const objectaArray = [
+const objectArray = [
     {
         message: 'hello',
         location: 'lagos',
@@ -6,14 +6,15 @@ const objectaArray = [
         service: 'cleaning service',
         number: 2347086758713,
         email: 'emmanulmelv@gmail.com',
-        name:'kode10x'
+        name: 'kode10x'
     },
-]
-console.log(objectaArray)
+];
+localStorage.setItem("appointmentInfo", JSON.stringify(objectArray));
+console.log(objectArray)
 const getFromLocal=()=>{
     let newArray = new Array
    newArray= JSON.parse(localStorage.getItem('appointmentInfo'))
-    return newArray
+   return newArray
 }
 
 document.getElementById('submit').addEventListener('click', (e) => {
@@ -25,7 +26,7 @@ document.getElementById('submit').addEventListener('click', (e) => {
     let userService=document.getElementById('service').value
     let userEmail=document.getElementById('email').value
     let userName = document.getElementById('name').value
-    let getValue = getFromLocal()
+    let getValue = getFromLocal() || []
     getValue.push({ name: userName, email: userEmail, service: userService, date: userDate, location: userLocation, number: userNumber, message: userMessage })
     localStorage.setItem("appointmentInfo", JSON.stringify(getValue));
     console.log(userDate,userEmail,userLocation,userMessage,userName,userNumber,userService)
@@ -33,4 +34,12 @@ document.getElementById('submit').addEventListener('click', (e) => {
     
     
 })
+const checklogin = () => {
+  let email = localStorage.getItem("email");
+  let password = localStorage.getItem("password");
+  if (!email && !password) {
+    location.href = "../signup/signup.html";
+  }
+};
+checklogin();
 

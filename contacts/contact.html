@@ -160,29 +160,41 @@
       </div>
       <div class="hero2-2">
         <form action="">
-          <div class="i1">
-            <label for="name">Name</label><br />
-            <input type="text" id="name" placeholder="NAME" />
-          </div>
-          <div class="i2">
-            <label for="email">Email</label><br />
-            <input type="text" id="email" placeholder="Enter Name"/>
-          </div>
 
-          <div class="i3">
-            <label for="phoneNumber">Phone Number</label><br>
-          <input type="text" id="PhoneNumber"  placeholder="e.g +2347089......"/>
-          </div>
-          <div class="i4">
-            <label for="service">Service</label><br>
-            <input type="text" id="service" placeholder="Enter Service Type"/>
-          </div>
-          <div class="i5">
-            <label for="message">Message</label><br>
-            <input type="text" id="message" placeholder="Message for fast response" />
-          </div>
-          <button class="appoint" id="appoint">Confirm Appointment</button>
+
+ <h2 style="margin-left: 10px;">Book Your cleaning service in 60 seconds</h2>
+ <hr>
+
+ <h3 style="margin-left: 10px;">
+  contact information</h3>
+<h4  style="margin-left:10px;">  This information will be used to contact you about your service</h4>
+<div class="firstInput">
+
+<input type="text" placeholder="Your Name" >
+<input type="text" placeholder="Your Email adress" >
+
+</div>
+
+<div class="secondInput">
+  <input type="tel" placeholder="Your Number"  maxlength="11">
+  <input type="email" placeholder="E-mail" >
+</div>
+
+<h3 style="margin-left: 10px;">Home information</h3>
+<h4 style="margin-left: 10px;">Tell Us About Your Home</h4>
+
+<div style="display: flex;" class="counter">
+
+  <div class="main" ><button id="minus">-</button><span class="num" id="bedSize">2</span>bathrooms <button>+</button></div>
+  <div class="main"> <button>-</button><span class="num">2</span>bathrooms <button>+</button></div>
+</div>
+
+<button class="bookNow">Book Now</button>
+
+
         </form>
+       
+        
       </div>
     </div>
     <div class="mapCont">
@@ -220,6 +232,7 @@
         <img src="./images/Google-Maps-Tips.png" alt="" />
       </div>
     </div>
+    
     <script src="./contact.js"></script>
   </body>
 </html>

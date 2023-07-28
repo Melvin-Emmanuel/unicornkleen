@@ -1,0 +1,21 @@
+body{
+  background-image: url(../image/glasss\ for.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.bk{
+   display: flex;
+   justify-content: space-around;
+   padding: 100px;
+}
+.booking{
+ height: 350px;
+ width: 300px;
+ background-color: blueviolet;
+ margin-right: 10px;
+ border-radius: 30px;
+}
+.booking h3{
+   
+}

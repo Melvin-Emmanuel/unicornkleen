@@ -19,7 +19,7 @@ const ObjectArray = [
   
   },
 ];
-
+// localStorage.setItem("userInfo", JSON.stringify(ObjectArray));
 console.log(ObjectArray);
 // ObjectArray.push({ name: 'john', phoneNumber: 23478578585, service: 'office dusting' })
 const getFromLocal = () => {
@@ -29,7 +29,7 @@ const getFromLocal = () => {
 };
 console.log(getFromLocal());
 document.getElementById("appoint").addEventListener("click", (e) => {
-  e.preventDefault();
+  // e.preventDefault();
 
   let userName = document.getElementById("name").value;
   let userEmail = document.getElementById("email").value;

@@ -156,7 +156,7 @@ margin-top: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 400;
     margin-top: 10px;
-    text-align: center;
+    text-align: left;
 
 }
 .hero2-1 hr{
@@ -197,7 +197,7 @@ margin-top: 10px;
 }
 label{
     font-size: 18px;
-    color:#3a4952;
+    color:#0ee1fb;
     font-weight: 500;
     font-family: 'Prompt', sans-serif;
 }

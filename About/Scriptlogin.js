@@ -10,7 +10,7 @@ document.getElementById("btn_log").addEventListener("click",function(event){
     if(loge === gete && logp === getp)
     {
         alert("login successful")
-        window.location.href = "dash.html"
+        location.href = ""
     }else
     {
         alert("login failed, wrong password and email try again")

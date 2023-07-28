@@ -12,7 +12,7 @@ const objectArray = [
 localStorage.setItem("appointmentInfo", JSON.stringify(objectArray));
 console.log(objectArray)
 const getFromLocal=()=>{
-    let newArray = new Array
+    let newArray =[]
    newArray= JSON.parse(localStorage.getItem('appointmentInfo'))
    return newArray
 }

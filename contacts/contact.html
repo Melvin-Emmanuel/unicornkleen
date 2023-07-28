@@ -12,7 +12,7 @@
   </head>
   <body>
     <div class="hero-1">
-      <div class="header">
+      <!-- <div class="header">
         <div class="logoCont">
           <div class="logoHolder">
             <img src="../images/logo_image-removebg-preview.png" alt="" />
@@ -27,7 +27,8 @@
           <a href="../contacts/contact.html"> <nav>Contact</nav></a>
         </div>
         <button class="getPrice">Get A Price</button>
-      </div>
+        <div class="menu">menu</div>
+      </div> -->
 
       <center class="contactCont">
         <h1>Contact Us</h1>
@@ -160,41 +161,43 @@
       </div>
       <div class="hero2-2">
         <form action="">
+          <h2 style="margin-left: 10px">
+            Book Your cleaning service in 60 seconds
+          </h2>
+          <hr />
 
+          <h3 style="margin-left: 10px">contact information</h3>
+          <h4 style="margin-left: 10px">
+            This information will be used to contact you about your service
+          </h4>
+          <div class="firstInput">
+            <input type="text" placeholder="Name" id="nam" />
+            <input type="text" placeholder="Address" id="address" />
+          </div>
 
- <h2 style="margin-left: 10px;">Book Your cleaning service in 60 seconds</h2>
- <hr>
+          <div class="secondInput">
+            <input type="tel" placeholder="Number" id="num" maxlength="11" />
+            <input type="email" placeholder="E-mail" id="mail" />
+          </div>
 
- <h3 style="margin-left: 10px;">
-  contact information</h3>
-<h4  style="margin-left:10px;">  This information will be used to contact you about your service</h4>
-<div class="firstInput">
+          <h3 style="margin-left: 10px">Home information</h3>
+          <h4 style="margin-left: 10px">Tell Us About Your Home</h4>
 
-<input type="text" placeholder="Your Name" >
-<input type="text" placeholder="Your Email adress" >
+          <div style="display: flex" class="counter">
+            <div class="main">
+              <button id="minus">-</button
+              ><span class="num" id="bedSize1">0</span>bedrooms
+              <button id="plus">+</button>
+            </div>
+            <div class="main">
+              <button id="minus2">-</button
+              ><span class="num" id="bedSize2">0</span>office
+              <button id="plus2">+</button>
+            </div>
+          </div>
 
-</div>
-
-<div class="secondInput">
-  <input type="tel" placeholder="Your Number"  maxlength="11">
-  <input type="email" placeholder="E-mail" >
-</div>
-
-<h3 style="margin-left: 10px;">Home information</h3>
-<h4 style="margin-left: 10px;">Tell Us About Your Home</h4>
-
-<div style="display: flex;" class="counter">
-
-  <div class="main" ><button id="minus">-</button><span class="num" id="bedSize">2</span>bathrooms <button>+</button></div>
-  <div class="main"> <button>-</button><span class="num">2</span>bathrooms <button>+</button></div>
-</div>
-
-<button class="bookNow">Book Now</button>
-
-
+          <button class="bookNow" id="bookNow">Book Now</button>
         </form>
-       
-        
       </div>
     </div>
     <div class="mapCont">
@@ -232,7 +235,7 @@
         <img src="./images/Google-Maps-Tips.png" alt="" />
       </div>
     </div>
-    
+
     <script src="./contact.js"></script>
   </body>
 </html>

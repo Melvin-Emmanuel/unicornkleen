@@ -8,8 +8,10 @@ document.getElementById("btn_reg").addEventListener("click",function(e){
     if(uName.trim().length === 0 || uPassword.trim().length === 0 || uEmail.trim().length === 0)
     {
         alert("please enter all field")
-    }else
+    } else
+    
     {
+        location.href='./login.html'
         console.log(uEmail,uName,uPassword)
         localStorage.setItem("User Name", uName)
         localStorage.setItem("Email", uEmail)

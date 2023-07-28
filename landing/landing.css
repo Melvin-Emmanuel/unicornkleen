@@ -47,6 +47,7 @@ header{
     align-items: center;
 }
 nav{
+    
     margin-right: 30px;
     color:  rgb(0, 53, 84);
 }
@@ -54,16 +55,30 @@ nav:hover{
     cursor: pointer;
 }
 button{
-    background-color: #0ECAEE;
+    background-color: #0EE1FB;
     height: 40px;
     width: 150px;
     border-radius: 20px;
-    border: 1px;
-    color: white;
+    border: none;
+    animation-name: myBut;
+    animation-duration: 5s;
 
 }
 button:hover{
+    background-color: #0EE1FB;
+    transition: 0.5s;
     cursor: pointer;
+    
+}
+
+
+@keyframes myBut{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }
 .butttn{
     margin-right: 5px;
@@ -208,7 +223,7 @@ li{
 
 
 
-.p4 img{git 
+.p4 img{
     width: 500px;
     object-fit: contain;
 }

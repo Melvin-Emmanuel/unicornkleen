@@ -1,6 +1,6 @@
 const objectArray = [
     {
-        message: 'hello',
+        // message: 'hello',
         location: 'lagos',
         date: new Date('2023-07-26'),
         service: 'cleaning service',
@@ -19,17 +19,17 @@ const getFromLocal=()=>{
 
 document.getElementById('submit').addEventListener('click', (e) => {
     e.preventDefault()
-    let userMessage=document.getElementById('message').value
+    // let userMessage=document.getElementById('message').value
     let userNumber=document.getElementById('number').value
     let userLocation=document.getElementById('location').value
     let userDate=document.getElementById('date').value=new Date()
     let userService=document.getElementById('service').value
     let userEmail=document.getElementById('email').value
     let userName = document.getElementById('name').value
-    let getValue = getFromLocal() || []
+    let getValue = getFromLocal() 
     getValue.push({ name: userName, email: userEmail, service: userService, date: userDate, location: userLocation, number: userNumber, message: userMessage })
     localStorage.setItem("appointmentInfo", JSON.stringify(getValue));
-    console.log(userDate,userEmail,userLocation,userMessage,userName,userNumber,userService)
+    console.log(userDate,userEmail,userLocation,userName,userNumber,userService)
     return false
     
     

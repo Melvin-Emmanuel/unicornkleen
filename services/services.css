@@ -67,7 +67,7 @@ body {
   display: flex;
   justify-content: center;
   color: #003554;
-  font-size: 19px;
+  font-size: 15px;
   font-weight: bold;
   text-align: center;
   font-family: "Montserrat", sans-serif;
@@ -108,15 +108,14 @@ body {
 .images p {
   width: 300px;
   display: flex;
-  font-size: 18px;
+  font-size: 15px;
   justify-content: flex-start;
   color: #3a4952;
   line-height: 29px;
   font-style: normal;
   font-weight: 300;
   text-align: center;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-family: Montserrat, sans-serif;
 }
 
 .images h4 {
@@ -127,7 +126,7 @@ body {
 }
 
 .secon h1 {
-  font-size: 15 px;
+  font-size: 15px;
   display: flex;
   margin-left: 50px;
   font-size: 30px;
@@ -153,7 +152,6 @@ body {
 
 .imagema {
   display: flex;
-  /* flex-wrap: wrap; */
   width: 100%;
   justify-content: space-around;
   align-items: flex-start;
@@ -163,6 +161,7 @@ body {
   height: 300px;
   width: 100%;
   object-fit: contain;
+  border-radius: 20px;
 }
 
 .carprt {
@@ -201,32 +200,76 @@ body {
 
 .carpet img {
   height: 350px;
-  width: 450px;
+  width: 470px;
   object-fit: cover;
+}
+
+.mainbody{
+display: flex;
+align-items: center;
+justify-content: center;
 }
 
 .twocard{
 display: flex;
 align-items: center;
-justify-content: space-between;
-background-color: yellow;
+justify-content: center;
+width: 1000px;
+height: 600px;
+overflow: hidden;
 }
 
 .serv{
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-height: 100px;
+height: 800px;
+width: 500px;
+background-color:  #e9f7f8;
+margin-top: 270px;
 }
 
 .serv h3{
-font-size: 18px;
+font-size: 19px;
 font-weight: 700;
+margin-top: 70px;
+margin-left: 30px;
+color: #00b2d4;
+font-family: Montserrat,sans-serif;
+}
+.serv h1{
+font-size: 32px;
+font-weight: 700;
+font-family: Montserrat,sans-serif;
+line-height: 48px;
+color: #003554;
+margin-left: 30px;
+}
+.serv p{
+font-size: 15px;
+font-weight: 400;
+line-height: 29px;
+color: #3a4952; 
+align-items: center;
+margin-left: 30px;
 }
 
+.clean{
+height: 600px;
+width: 500px;
+background-repeat: no-repeat;
+background-size: cover;
+}
 
-.clean image{
-height: 100px;
-width: 5opx;
+.serv img{
+height: 800px;
+width: 500px;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.price{
+
+}
+.list p{
+display: flex;
+justify-content: center;
+align-items: center;
 }
